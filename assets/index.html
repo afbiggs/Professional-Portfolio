@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Alex Biggs Professional Portfolio</title>
 </head>
 
@@ -10,11 +12,12 @@
     <!--  Reurn Home Button/ Nav Bar -->
     <header class="header">
         <nav>
-            <div>
-                <a href="https://afbiggs.github.io/professional-portfolio/">Alex Biggs</a>
+            <div class="left">
+                <h1>
+                    <a href="index.html">Alex Biggs</a>
+                </h1>
             </div>
-            <!-- Nav Bar  -->
-            <ul>
+            <ul class="right">
                 <li>
                     <a href="#about-me">About Me</a>
                 </li>
@@ -24,78 +27,108 @@
                 <li>
                     <a href="#contact-me">Contact Me</a>
                 </li>
-                <li>
             </ul>
         </nav>
     </header>
 
     <!-- Hero Section  -->
-    <section class="hero">
-        <div>
-            <Img src="./personal photo.jpeg" alt="picture of Alex Biggs" class="personal photo"></Img>
-            <h1>
-                Alex Biggs
-            </h1>
-            <h2>Thanks for visiitng my page! I am a Full Stack Web Development student who will soon be seaking to enter the
-                workforce. This website will serve as my Portfolio that will continue to be updated throughout my time as a
-                student and throughout my professional journey.
-            </h2>
-        </div>
+    <section class="hero-section">
+        <div class="hero-image">
+            <div class="hero-text">
+                <Img src="./personal photo.jpeg" alt="picture of Alex Biggs" class="personal photo"></Img>
+                <h2>
+                    Alex Biggs
+                </h2>
+                <p> Thanks for visiitng my page! Please continue through this website to learn more about me and my
+                    journey
+                    as a Full-Stack Web Developer. This website will serve as my Portfolio and will continue to be
+                    updated
+                    throughout my time as a student and also throughout my professional journey.
+                </p>
+            </div>
     </section>
 
+    <!-- About Me Section  -->
     <main>
-        <section>
-    
+        <section id="about-me" class="section">
+            <div class="section-title">
+                <h2>
+                    About Me
+                </h2>
+            </div>
+            <div class="flex-row">
+                <p> I am a Full Stack Web Development student who will soon be seaking to enter the
+                    workforce. I am a graduate of Appalachian State University with a degree in Business Administraion
+                    and Mangagement. I currently live in Asheville North Carolina and managment a successful restaurant
+                    in donwtown Asheville. I have decided to continue my education and persue a career in tech.
+                    Currently I am a Fullstack bootcamp student through The University of North Carolina at Chapel Hill
+                    and upon completion of the bootcamp I plan on entering the technology workforce and continue my path
+                    of web/software development.
+                </p>
+            </div>
+        </section>
 
-    
+        <!-- My Work section -->
+        <section class="my-work">
+            <div class="section-title">
+                <h2>My Work</h2>
+            </div>
+            <div class="projects-grid-wrapper">
+                <div class="projects-grid">
 
+                    <a href="afbiggs.github.io/challenge-01/" target="_blank" id="first-project">
+                        <div class="project-label">
+                            <h3>Code Refactor</h3>
+                        </div>
+                    </a>
 
+                    <a href="https://afbiggs.github.io/prework-study-guide/" target="_blank" id="bootcamp-study-guide">
+                        <div class="project-label">
+                            <h3>Bootcamp Study Guide</h3>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" id="project project3">
+                        <div class="project-label">
+                            <h3>Project 3</h3>
+                            <p>Placeholder</p>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" id="project project4">
+                        <div class="project-label">
+                            <h3>Project 4</h3>
+                            <p>Placeholder</p>
+                        </div>
+                    </a>
+                    <a href="#" target="_blank" id="project project5">
+                        <div class="project-label">
+                            <h3>Project 5</h3>
+                            <p>Placeholder</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <footer id="contact-me">
+            <div class="title">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="content-wrapper">
+                <div id="contact-list">
+                    <ul>
+                        <li>
+                            <a href="afbiggs73@gmail.com">Email</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/afbiggs" target="_blank">GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/alex-biggs-2a8a0194/" target="_blank">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
 </body>
+
+</html>
